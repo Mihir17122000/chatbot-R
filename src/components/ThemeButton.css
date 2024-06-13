@@ -1,0 +1,13 @@
+.theme-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .dark-theme .theme-button {
+    background-color: #444;
+  }
+  

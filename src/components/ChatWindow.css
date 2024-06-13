@@ -1,0 +1,116 @@
+.chat-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    max-width: 100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .dark-theme .chat-window {
+    background-color: #333;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .dark-theme .chat-header {
+    background-color: #444;
+  }
+  
+  .chat-header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-icon {
+    cursor: pointer;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+  }
+  
+  .dark-theme .chat-body {
+    background-color: #555;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .message.user {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .message.bot {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .dark-theme .message.bot {
+    background-color: #777;
+  }
+  
+  .chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #f1f1f1;
+    background-color: white;
+  }
+  
+  .dark-theme .chat-footer {
+    background-color: #333;
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .dark-theme .chat-footer input {
+    background-color: #555;
+    color: white;
+  }
+  
+  .chat-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .dark-theme .chat-footer button {
+    background-color: #444;
+  }
+  
